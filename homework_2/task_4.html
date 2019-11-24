@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="container"></div>
+<input id="add-item-btn" type="button" value="+">
+<script>
+    let inp = document.getElementById("add-item-btn");
+    inp.addEventListener('click', function(){
+        let div = document.getElementById("container");
+        let innerDiv = document.createElement("div");
+        innerDiv.classList.add('element');
+        innerDiv.innerText = "Element";
+        div.appendChild(innerDiv);
+    })
+</script>
+</body>
+</html>

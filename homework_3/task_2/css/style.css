@@ -1,0 +1,36 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+.myTable{
+    margin: 50px auto;
+    text-align: center;
+    border:1px solid black;
+}
+.myTable tr{
+    border:1px solid black;
+}
+.myTable tr td{
+    border: 1px solid black;
+}
+.container img{
+    width:250px;
+    height:150px;
+}
